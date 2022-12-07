@@ -1,5 +1,17 @@
 @import "bootstrap/scss/bootstrap-grid";
 
+@font-face {
+  font-family: "SF Pro";
+  src: url("../fonts/SF-Pro-Display-Light.woff") format("woff");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "SF Pro";
+  src: url("../fonts/SF-Pro-Display-Medium.woff") format("woff");
+  font-weight: normal;
+}
+
 /* ====================================
 // css variables
 // ==================================== */
@@ -54,4 +66,20 @@ video {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+body {
+  font-family: SF Pro;
+}
+
+.nav-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.nav-header a {
+  text-decoration: none;
+  font-size: 18px;
 }
