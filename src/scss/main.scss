@@ -72,6 +72,14 @@ body {
   font-family: SF Pro;
 }
 
+img {
+  width: 100%;
+}
+
+head {
+  background-color: white;
+}
+
 .nav-header {
   display: flex;
   flex-direction: row;
@@ -81,5 +89,16 @@ body {
 
 .nav-header a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
+}
+
+h1 {
+  width: 100%;
+}
+
+.white-box-symbol {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
