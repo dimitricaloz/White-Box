@@ -31,6 +31,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -104,4 +105,32 @@ h1 {
 
 ul {
   list-style-type: none;
+}
+
+.carousel {
+  display: flex;
+  animation-duration: 10s;
+  animation-name: locationImages;
+  animation-iteration-count: infinite;
+}
+
+@keyframes locationImages {
+  0% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-2126);
+  }
+  40% {
+    transform: translateX(-4252);
+  }
+  60% {
+    transform: translateX(-6378);
+  }
+  80% {
+    transform: translateX(-8504);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
