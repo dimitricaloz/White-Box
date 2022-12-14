@@ -93,7 +93,6 @@ head {
 }
 
 h1 {
-  width: 100%;
 }
 
 .white-box-symbol {
@@ -101,4 +100,8 @@ h1 {
   flex-direction: row;
   justify-content: center;
   text-align: center;
+}
+
+ul {
+  list-style-type: none;
 }
