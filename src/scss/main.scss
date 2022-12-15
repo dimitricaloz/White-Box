@@ -57,17 +57,17 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 body {
   font-family: SF Pro;
@@ -93,9 +93,6 @@ head {
   font-size: 12px;
 }
 
-h1 {
-}
-
 .white-box-symbol {
   display: flex;
   flex-direction: row;
@@ -109,28 +106,28 @@ ul {
 
 .carousel {
   display: flex;
-  animation-duration: 10s;
+  animation-duration: 20s;
   animation-name: locationImages;
   animation-iteration-count: infinite;
+}
+.carousel-box {
+  overflow: hidden;
 }
 
 @keyframes locationImages {
   0% {
     transform: translateX(0);
   }
-  20% {
-    transform: translateX(-2126);
-  }
-  40% {
-    transform: translateX(-4252);
-  }
-  60% {
-    transform: translateX(-6378);
-  }
+
   80% {
-    transform: translateX(-8504);
+    transform: translateX(-500);
   }
+
   100% {
     transform: translateX(0);
   }
+}
+
+.contact {
+  display: flex;
 }
