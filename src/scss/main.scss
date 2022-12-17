@@ -77,7 +77,7 @@ img {
   width: 100%;
 }
 
-head {
+header {
   background-color: white;
 }
 
@@ -130,4 +130,29 @@ ul {
 
 .contact {
   display: flex;
+}
+
+nav {
+  font-size: 18px;
+  margin-top: 27px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.slogan1 {
+  text-align: center;
+  font-weight: light;
+  font-size: 50px;
+}
+
+.slogan2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.white-box-symbol {
+  margin-bottom: 24px;
 }
