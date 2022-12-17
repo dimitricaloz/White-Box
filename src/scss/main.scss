@@ -145,14 +145,60 @@ h1 {
   text-align: center;
   font-weight: light;
   font-size: 50px;
+  margin-bottom: 11px;
+}
+main {
+  background-color: black;
 }
 
 .slogan2 {
   text-align: center;
   color: white;
   font-size: 50px;
+  margin-top: 11px;
+  margin-bottom: 59px;
 }
 
 .white-box-symbol {
   margin-bottom: 24px;
+}
+
+h3 {
+  font-size: 50px;
+  color: white;
+  margin-top: 59px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  font-size: 18px;
+  color: white;
+}
+
+p {
+  font-size: 18px;
+  color: white;
+}
+
+.reservation-button {
+  background-color: white;
+  font-size: 30px;
+  padding: 13px 64px 13px 64px;
+  border-radius: 50px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+
+.h3-info {
+  margin-right: 70px;
+}
+
+.food {
+  margin-top: 125px;
+  margin-bottom: 100px;
+}
+
+.img-map {
+  margin-top: 83px;
+  margin-bottom: 83px;
 }
