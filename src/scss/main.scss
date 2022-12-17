@@ -128,10 +128,6 @@ ul {
   }
 }
 
-.contact {
-  display: flex;
-}
-
 nav {
   font-size: 18px;
   margin-top: 27px;
@@ -201,4 +197,31 @@ p {
 .img-map {
   margin-top: 83px;
   margin-bottom: 83px;
+}
+
+.logo-footer {
+  max-width: 290px;
+  margin-top: 147px;
+  margin-bottom: 176px;
+}
+
+h4 {
+  font-size: 36px;
+  margin-top: 79px;
+}
+
+.adress-footer {
+  color: black;
+  font-size: 18px;
+  margin-top: 19px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact img {
+  max-width: 38px;
+  margin: 6px;
+  margin-top: 19px;
 }
