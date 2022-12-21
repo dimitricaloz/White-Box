@@ -3,7 +3,7 @@
 @font-face {
   font-family: "SF Pro";
   src: url("../fonts/SF-Pro-Display-Light.woff") format("woff");
-  font-weight: lighter;
+  font-weight: light;
 }
 
 @font-face {
@@ -106,7 +106,7 @@ ul {
 
 .carousel {
   display: flex;
-  animation-duration: 20s;
+  animation-duration: 40s;
   animation-name: locationImages;
   animation-iteration-count: infinite;
 }
@@ -120,7 +120,7 @@ ul {
   }
 
   80% {
-    transform: translateX(-500);
+    transform: translateX(-400%);
   }
 
   100% {
@@ -140,9 +140,9 @@ h1 {
 .slogan1 {
   text-align: center;
   font-weight: light;
-  font-size: 50px;
   margin-bottom: 11px;
 }
+
 main {
   background-color: black;
 }
@@ -150,9 +150,22 @@ main {
 .slogan2 {
   text-align: center;
   color: white;
-  font-size: 50px;
   margin-top: 11px;
   margin-bottom: 59px;
+  font-weight: light;
+}
+
+@media (min-width: 350px) and (max-width: 990px) {
+  h2 {
+    font-size: 25px;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 990px) and (max-width: 2000px) {
+  h2 {
+    font-size: 50px;
+  }
 }
 
 .white-box-symbol {
@@ -160,15 +173,27 @@ main {
 }
 
 h3 {
-  font-size: 50px;
   color: white;
   margin-top: 59px;
   margin-bottom: 30px;
 }
 
+@media (min-width: 350px) and (max-width: 1200px) {
+  h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 2000px) {
+  h3 {
+    font-size: 50px;
+  }
+}
+
 ul li {
   font-size: 18px;
   color: white;
+  margin-bottom: 5px;
 }
 
 p {
@@ -177,9 +202,13 @@ p {
 }
 
 .reservation-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   font-size: 30px;
-  padding: 13px 64px 13px 64px;
+  padding: 13px 64px 14px 64px;
   border-radius: 50px;
   margin-top: 56px;
   margin-bottom: 56px;
@@ -199,15 +228,58 @@ p {
   margin-bottom: 83px;
 }
 
+// .logo-footer {
+//   max-width: 290px;
+// }
+
 .logo-footer {
-  max-width: 290px;
-  margin-top: 147px;
-  margin-bottom: 176px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 350px) and (max-width: 1200px) {
+  .logo-footer {
+    margin-top: 100px;
+    margin-bottom: 70px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 2000px) {
+  .logo-footer {
+    margin-top: 147px;
+    margin-bottom: 176px;
+  }
 }
 
 h4 {
   font-size: 36px;
   margin-top: 79px;
+}
+
+@media (min-width: 350px) and (max-width: 1200px) {
+  h4 {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 2000px) {
+  h4 {
+    margin-top: 79px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 1200px) {
+  .logo-footer {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 2000px) {
+  .logo-footer {
+    margin-top: 79px;
+  }
 }
 
 .adress-footer {
@@ -218,10 +290,11 @@ h4 {
 
 .contact {
   display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
 }
 
 .contact img {
   max-width: 38px;
-  margin: 6px;
-  margin-top: 19px;
+  margin: 19px 6px;
 }
