@@ -224,13 +224,16 @@ p {
 }
 
 .img-map {
-  margin-top: 83px;
-  margin-bottom: 83px;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 
-// .logo-footer {
-//   max-width: 290px;
-// }
+@media (min-width: 750px) and (max-width: 2000px) {
+  .img-map {
+    margin-top: 83px;
+    margin-bottom: 83px;
+  }
+}
 
 .logo-footer {
   display: flex;
@@ -297,4 +300,11 @@ h4 {
 .contact img {
   max-width: 38px;
   margin: 19px 6px;
+}
+
+@media (min-width: 350px) and (max-width: 1200px) {
+  .footer-content {
+    margin: 20px;
+    margin-top: 70px;
+  }
 }
